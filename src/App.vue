@@ -1,30 +1,42 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
   </div>
   <router-view/>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<style lang="sass">
+@import "styles/normalize"
+@import "styles/reset"
+@import "styles/variables/iconography"
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap')
+@import "styles/variables/colors"
+@import "styles/variables/typography"
 
-#nav {
-  padding: 30px;
+.icon-cancel-circle
+  background: url($cancel-circle) no-repeat
+.icon-close
+  background: url($close) no-repeat
+.icon-learn
+  background: url($learn) no-repeat
+.icon-pin
+  background: url($pin) no-repeat
+.icon-plus-circle
+  background: url($plus-circle) no-repeat
+.icon-search
+  background: url($search) no-repeat
+#app
+  font-family: 'Source Sans Pro', sans-serif
+  background: $white
+  text-align: center
+  color: #2c3e50
+  padding: 20px 100px
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+#nav
+  padding: 30px
+  a
+    font-weight: bold
+    color: #2c3e50
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+    &.router-link-exact-active
+      color: #42b983
 </style>
