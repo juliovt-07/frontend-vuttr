@@ -1,3 +1,5 @@
+// colors
+
 $white: #FFF;
 $darkWhite: #FCFCFD;
 $darkerWhite: #F5F4F6;
@@ -6,7 +8,7 @@ $mostDarkestWhite: #DEDCE1;
 $ink: #170C3A;
 $lightInk: #8F8A9B;
 $lighterInk: #B1ADB9;
-$lightestInt: #C7C4CD;
+$lightestInk: #C7C4CD;
 $blue: #365DF0;
 $darkBlue: #2F55CC;
 $green: #12DB89;
@@ -19,3 +21,51 @@ $purple: #6554C0;
 $darkPurple: #4C4499;
 $teal: #30C3FC;
 $darkTeal: #2BAFD8;
+
+// backgrounds
+
+.bg-white {background:$white;}
+.bg-dark-white {background:$darkWhite;}
+.bg-darker-white {background:$darkerWhite;}
+.bg-darkest-white {background:$darkestWhite;}
+.bg-most-darkest-white {background:$mostDarkestWhite;}
+.bg-ink {background:$ink;}
+.bg-light-ink {background:$lightInk;}
+.bg-lighter-ink {background:$lighterInk;}
+.bg-lightest-ink {background:$lightestInk;}
+.bg-blue {background:$blue;}
+.bg-dark-blue {background:$darkBlue;}
+.bg-green {background:$green;}
+.bg-dark-green {background:$darkGreen;}
+.bg-yellow {background:$yellow;}
+.bg-dark-yellow {background:$darkYellow;}
+.bg-red {background:$red;}
+.bg-dark-red {background:$darkRed;}
+.bg-purple {background:$purple;}
+.bg-dark-purple {background:$darkPurple;}
+.bg-teal {background:$teal;}
+.bg-dark-teal {background:$darkTeal;}
+
+// fonts
+
+.white {color:$white;}
+.dark-white {color:$darkWhite;}
+.darker-white {color:$darkerWhite;}
+.darkest-white {color:$darkestWhite;}
+.most-darkest-white {color:$mostDarkestWhite;}
+.ink {color:$ink;}
+.light-ink {color:$lightInk;}
+.lighter-ink {color:$lighterInk;}
+.lightest-ink {color:$lightestInk;}
+.blue {color:$blue;}
+.dark-blue {color:$darkBlue;}
+.green {color:$green;}
+.dark-green {color:$darkGreen;}
+.yellow {color:$yellow;}
+.dark-yellow {color:$darkYellow;}
+.red {color:$red;}
+.dark-red {color:$darkRed;}
+.purple {color:$purple;}
+.dark-purple {color:$darkPurple;}
+.teal {color:$teal;}
+.dark-teal {color:$darkTeal;}

@@ -1,35 +1,19 @@
 <template>
   <div id="nav">
   </div>
-  <router-view/>
+  <router-view class="content"/>
 </template>
 
 <style lang="sass">
-@import "styles/normalize"
-@import "styles/reset"
-@import "styles/variables/iconography"
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap')
-@import "styles/variables/colors"
-@import "styles/variables/typography"
+@import "styles/styles"
 
-.icon-cancel-circle
-  background: url($cancel-circle) no-repeat
-.icon-close
-  background: url($close) no-repeat
-.icon-learn
-  background: url($learn) no-repeat
-.icon-pin
-  background: url($pin) no-repeat
-.icon-plus-circle
-  background: url($plus-circle) no-repeat
-.icon-search
-  background: url($search) no-repeat
+body
+  background: $darkerWhite
 #app
   font-family: 'Source Sans Pro', sans-serif
-  background: $white
   text-align: center
   color: #2c3e50
-  padding: 20px 100px
+  padding: 50px 20%
 
 #nav
   padding: 30px
@@ -39,4 +23,15 @@
 
     &.router-link-exact-active
       color: #42b983
+.content
+  max-width: 50vw
+.btn
+  min-width: 114px
+  max-width: 150px
+  min-height: 25px
+  padding: 5px
+  border: none
+  border-radius: 5px
+  box-shadow: 0px 10px 10px #0000000D
+  cursor: pointer
 </style>
